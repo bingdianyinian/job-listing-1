@@ -1,19 +1,85 @@
-<div class="col-md-12">
-  <div class="row box">
-    <div class="box-inner col-md-6 col-md-offset-3">
-      <h1 class="title">18K Offer</h1>
-      <p class="slogan">18K Offer 是一个提供18K薪水工作机会的求职网站。
-        <br>
-        我们希望借由这个网站，能让大家找到且应征上高薪且优质的工作。
-        <br>
-        凭借自己的努力和天份也会变 Winner
-      </p>
-      <p class="lead">
-        <%= link_to '马上应征', jobs_path, class: 'btn btn-danger' %>
-      </p>
+<div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
+  <!-- Overlay -->
+  <div class="overlay"></div>
+
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
+    <li data-target="#bs-carousel" data-slide-to="1"></li>
+    <li data-target="#bs-carousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item slides active">
+      <div class="slide-1"></div>
+      <div class="hero">
+        <hgroup>
+            <h1>燃烧无极限</h1>
+            <h3>每一颗冠军的心，都应该继续被荣耀！</h3>
+        </hgroup>
+        <button class="btn btn-hero btn-lg" role="button">快来报名</button>
+      </div>
+    </div>
+    <div class="item slides">
+      <div class="slide-2"></div>
+      <div class="hero">
+        <hgroup>
+            <h1>燃烧无极限</h1>
+            <h3>整合影视，广告，竞赛，培训等资源，为退役运动员，提供多元就业机会。</h3>
+        </hgroup>
+        <button class="btn btn-hero btn-lg" role="button">快来报名</button>
+      </div>
+    </div>
+    <div class="item slides">
+      <div class="slide-3"></div>
+      <div class="hero">
+        <hgroup>
+            <h1>燃烧无极限</h1>
+            <h3>让运动员继续从事热爱的竞技运动.</h3>
+        </hgroup>
+        <button class="btn btn-hero btn-lg" role="button">快来报名</button>
+      </div>
     </div>
   </div>
 </div>
+
+
+<section class="odd">
+  <div class="section-content">
+    <h2 class="section-title">5分钟给你激情燃烧的工作</h2>
+
+    <div class="col-3 clearfix advantage">
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="item fl">
+            <img class="advantage-img" src="http://fullstack-public.oss-cn-qingdao.aliyuncs.com/2017-04-15-Screenshot%20at%20Apr%2015%2021-43-31.png" alt="search" class = "img-thumbnail">
+            <br>
+            <h3 class="advantage-title">与大公司合作</h3>
+            <p>提供靠谱的高薪职位</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="item fl">
+            <img class="advantage-img" src="http://fullstack-public.oss-cn-qingdao.aliyuncs.com/2017-04-15-Screenshot%20at%20Apr%2015%2021-43-48.png" alt="bid" class = "img-thumbnail">
+            <br>
+            <h3 class="advantage-title">提供简历模版</h3>
+            <p>快速撰写投递建立</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="item fl">
+            <img class="advantage-img" src="http://fullstack-public.oss-cn-qingdao.aliyuncs.com/2017-04-15-Screenshot%20at%20Apr%2015%2021-44-00.png" alt="heart" class = "img-thumbnail">
+            <br>
+            <h3 class="advantage-title">即时反馈</h3>
+            <p>最短时间内得到招聘答复</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
 <div class="content-section-a">
   <div class="container">
