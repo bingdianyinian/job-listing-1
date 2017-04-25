@@ -15,5 +15,6 @@
 //= require turbolinks
 //= require bootstrap/alert
 //= require bootstrap/dropdown
+//= require bootstrap/modal
 *= require font-awesome
 //= require_tree .
